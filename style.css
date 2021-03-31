@@ -1,12 +1,3 @@
-
-
-
-
- /* body{
-    background-color: red;
-  }
- */
-
 .row {
   width: 992px;
   margin-left: auto;
@@ -32,6 +23,15 @@
   text-align: center;
 }
 
+@media screen and (max-width: 420px){
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+  width: 100%;
+  float: none;
+  margin-top: 60px;
+  }
+}
+
 /* BLOCCO STEPS */
 #steps .row>.left,
 #steps .row>.central,
@@ -45,8 +45,9 @@
 }
 
 @media screen and (max-width: 420px){
-  #lezioni .row>.left,
-  #lezioni .row>.right {
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right{
   width: 100%;
   float: none;
   margin-top: 60px;
