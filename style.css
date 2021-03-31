@@ -28,8 +28,18 @@
   #lezioni .row>.right {
   width: 100%;
   float: none;
-  margin-top: 60px;
+  margin-top: 40px;
   }
+
+  #lezioni .row{
+    background-color: rgba(242, 242, 205, 1);
+  }
+
+  .row>.left h3,
+  .row>.right h3{
+    margin-bottom: 0;
+  }
+
 }
 
 /* BLOCCO STEPS */
